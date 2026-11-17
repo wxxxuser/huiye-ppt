@@ -1,0 +1,8 @@
+{
+  "slug": "huiye-ppt",
+  "name": "汇页PPT",
+  "version": "0.1.0",
+  "category": "productivity",
+  "tagline": "把已有材料，整理成有依据、能编辑的 PPT。",
+  "description": "汇页 PPT 帮助用户将项目材料整理为演示文稿：先确认大纲，再生成页面，逐页修改并导出可继续编辑的 PPTX。AI 通过 Anna 提供，草稿保存到用户自己的 App 存储。"
+}

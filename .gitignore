@@ -1,0 +1,12 @@
+node_modules/
+dist/
+bundle/
+*.tsbuildinfo
+.env
+.env.*
+!.env.example
+.anna/
+.tools/
+artifacts/
+credentials.json
+*.log

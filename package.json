@@ -1,0 +1,40 @@
+{
+  "name": "huiye-ppt",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "汇页 PPT — 把项目材料整理成可以继续编辑的演示文稿",
+  "engines": {
+    "node": ">=22.12.0"
+  },
+  "scripts": {
+    "predev": "npm run build",
+    "dev": "node scripts/anna.mjs dev --slug huiye-ppt --port 5184 --no-llm",
+    "dev:ui": "vite --host 127.0.0.1",
+    "build": "tsc -b && vite build",
+    "build:watch": "vite build --watch",
+    "preview": "vite preview --host 127.0.0.1",
+    "test": "tsx --test tests/*.test.ts",
+    "validate": "anna-app validate --strict",
+    "anna:dev": "npm run dev",
+    "anna": "anna-app",
+    "anna:prepare": "node scripts/prepare-runtime.mjs",
+    "test:host": "node scripts/smoke-host.mjs"
+  },
+  "dependencies": {
+    "jszip": "^3.10.1",
+    "pptxgenjs": "4.0.1",
+    "react": "19.3.1",
+    "react-dom": "19.3.1"
+  },
+  "devDependencies": {
+    "@anna-ai/cli": "0.1.64",
+    "@types/node": "24.19.2",
+    "@types/react": "19.3.0",
+    "@types/react-dom": "19.3.0",
+    "@vitejs/plugin-react": "6.1.2",
+    "tsx": "4.21.0",
+    "typescript": "7.0.2",
+    "vite": "8.3.5"
+  }
+}

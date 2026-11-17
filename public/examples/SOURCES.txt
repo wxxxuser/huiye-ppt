@@ -1,0 +1,24 @@
+示例图片来源
+
+这些素材用于汇页 PPT 的“南桥咖啡午高峰外带流程复盘”演示，以及图片上传、保存和导出的本地验收。门店、人物和经营记录均为虚构；照片仅作场景示意，并非该门店的现场记录。
+
+## coffee-takeaway.jpg
+
+- 图片：A Person Holding a Cup of Coffee
+- 摄影师：Valeriia Miller
+- 来源页面：https://www.pexels.com/photo/a-person-holding-a-cup-of-coffee-6150134/
+- 许可：https://www.pexels.com/license/
+- 取得日期：2026-11-17
+- 本地尺寸：1600 × 1067，JPEG
+- 下载地址：https://images.pexels.com/photos/6150134/pexels-photo-6150134.jpeg?auto=compress&cs=tinysrgb&w=1600
+
+Pexels License 允许免费使用和修改图片，也明确允许在应用和演示文稿中使用。本项目没有出售原图、声称摄影师背书或将图片作为商标；请勿把本目录重新发布为素材下载库。
+
+## coffee-waiting-time.png
+
+- 本项目原创图表，通过 Matplotlib 绘制，不由 AI 生图模型生成。
+- 尺寸：1400 × 900，PNG
+- 数据来自 `src/sample.ts` 的虚构门店材料：试点前等待时长中位数 7.2 分钟，试点后 4.8 分钟；对应记录订单 420 单和 438 单。
+- 图中保留“虚构门店演示数据”说明，可随本示例一起使用。
+
+两张图片都随 App 的静态资源打包。用户打开示例时不需要外部图片站点，也不调用网络搜图或 AI 生图接口。

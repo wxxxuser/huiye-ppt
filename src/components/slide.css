@@ -1,0 +1,4 @@
+.hy-slide-preview { position: relative; width: 100%; min-width: 0; }
+.hy-slide-canvas { display: block; width: 100%; height: auto; aspect-ratio: 16 / 9; overflow: hidden; border-radius: 8px; box-shadow: 0 10px 35px #17203617; }
+.hy-slide-preview--compact .hy-slide-canvas { border-radius: 4px; box-shadow: none; }
+.hy-slide-overflow { margin-top: 8px; padding: 9px 12px; border-radius: 6px; background: #fff1d6; color: #825516; font: 12px/1.6 system-ui, sans-serif; }

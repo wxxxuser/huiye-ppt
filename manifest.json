@@ -1,0 +1,23 @@
+{
+  "schema": 4,
+  "required_executas": [],
+  "optional_executas": [],
+  "tags": ["presentation", "productivity"],
+  "system_prompt_addendum": "用户需要根据已有材料制作或编辑 PPT 时，打开 main 视图使用汇页 PPT。让用户在 App 中确认大纲后生成页面。不要将示例内容当作用户事实，也不要声称未经执行的模型调用已完成。",
+  "ui": {
+    "bundle": { "format": "static-spa", "entry": "index.html", "external_origins": [] },
+    "views": [{
+      "name": "main",
+      "title": "汇页 PPT",
+      "default": true,
+      "min_size": { "w": 360, "h": 400 },
+      "default_size": { "w": 1180, "h": 780 },
+      "max_size": { "w": 1920, "h": 1440 },
+      "resizable": true,
+      "movable": true,
+      "single_instance": true
+    }],
+    "form_factors": ["desktop"],
+    "csp_overrides": { "connect-src": ["https://*.r2.cloudflarestorage.com"] }
+  }
+}
